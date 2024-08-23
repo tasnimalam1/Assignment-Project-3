@@ -163,7 +163,7 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-2 shadow"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 p-2 shadow right-0"
               >
                 <li>
                   <a>Home</a>
@@ -209,11 +209,11 @@
     <main>
         <!-- About Us section -->
         <section class="bg-base-200 pb-8 lg:pb-24">
-            <div class="relative">
-                <img class="absolute lg:top-14 lg:left-72 hidden lg:block" src="./assets/Vector.png" alt="">
+            <div>
                 <div class="hero container mx-auto">
                     <div class="hero-content flex-col lg:flex-row flex-1 gap-10">
-                      <div class="mt-5 lg:mt-24 ">
+                      <div class="relative mt-5 lg:mt-24 ">
+                        <img class="absolute lg:-top-12 lg:-left-10 hidden lg:block" src="./assets/Vector.png" alt="">
                         <h1 class="btn ml-28 lg:ml-auto bg-white rounded-3xl mb-4 font-extrabold px-5 "><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                           </svg>
@@ -269,7 +269,7 @@
                 ">Our work process is a seamless journey from initial concept to final execution, ensuring every detail is meticulously crafted. We collaborate closely with clients to bring their vision to life.</p>
                 </div>
                 <!-- card content -->
-                 <div class="grid grid-cols-1 lg:grid-cols-4 lg:gap-5 mx-5 lg:mx-28">
+                 <div class="grid grid-cols-1 lg:grid-cols-4 lg:gap-5 px-5">
                     <!-- card-1 -->
                     <div class="bg-[#E7C1D3]  p-10 rounded-xl mb-5 lg:mb-10 space-y-5">
                         <img src="./assets/concept.png" alt="">
@@ -309,18 +309,18 @@
                   Explore our Latest works</h1>
                  </div>
                  <div class="text-center space-y-5">
-                  <h1 class="text-5xl font-extrabold">Our Latest Portfolio</h1>
-                 <p class="text-[16px] text-gray-600 font-semibold w-3/4 mx-auto pb-10">Explore our latest portfolio showcasing diverse projects, each reflecting our commitment to quality, innovation, and client satisfaction. From residential to commercial spaces, we bring your vision to life.</p>
+                  <h1 class="text-2xl lg:text-5xl font-extrabold">Our Latest Portfolio</h1>
+                 <p class="text-[14px lg:text-[16px] text-gray-600 font-semibold w-3/4 mx-auto pb-10">Explore our latest portfolio showcasing diverse projects, each reflecting our commitment to quality, innovation, and client satisfaction. From residential to commercial spaces, we bring your vision to life.</p>
                  </div>
                </div>
                <!-- card content -->
-                <div class="mx-28">
-                  <div class="grid grid-cols-3 gap-5 mb-6"> 
-                    <div class="flex gap-8 col-span-2 rounded-xl border-2 shadow-xl p-8">
+                <div class="mx-5">
+                  <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mb-6"> 
+                    <div class="flex flex-col lg:flex-row gap-8 col-span-2 rounded-xl border-2 shadow-xl p-8">
                       <div>
-                        <img class="size-44 w-[620px]" src="./assets/img1.png" alt="">
+                        <img class="size-screen w-[620px]" src="./assets/img1.png" alt="">
                       </div>
-                      <div class="space-y-2">
+                      <div class="space-y-3">
                         <h5 class="text-2xl font-extrabold">Commercial</h5>
                         <p class="text-[16px] text-gray-500 font-semibold">Our commercial portfolio highlights innovative designs that enhance brand identity, optimize space, and boost productivity in modern work environments.</p>
                         <div></div>
@@ -341,19 +341,19 @@
                       </svg></h1>
                       </div>
                     </div>
-                    <div class="rounded-xl border-2 shadow-xl p-8">
-                      <img class="w-screen" src="./assets/img2.png" alt="">
+                    <div class="rounded-xl border-2 w-[360px] lg:w-full shadow-xl p-8">
+                      <img class="size-40 lg:size-56 w-screen lg:w-screen" src="./assets/img2.png" alt="">
                     </div>
                   </div>
-                  <div class="grid grid-cols-4 gap-5">
-                    <div class="rounded-xl border-2 shadow-xl p-8">
+                  <div class="grid grid-cols-1 lg:grid-cols-4 gap-5 mb-6">
+                    <div class="rounded-xl border-2 shadow-xl p-8 w-[360px] lg:w-full order-last">
                       <img class="w-screen" src="./assets/img3.png" alt="">
                     </div>
-                    <div class="flex gap-8 col-span-2 rounded-xl border-2 shadow-xl p-8">
+                    <div class="flex flex-col lg:flex-row gap-8 col-span-2 rounded-xl border-2 shadow-xl p-8">
                       <div>
-                        <img class="size-48 w-[620px]" src="./assets/img4.png" alt="">
+                        <img class="size-screen w-[620px]" src="./assets/img4.png" alt="">
                       </div>
-                      <div class="space-y-3">
+                      <div class="space-y-4">
                         <h5 class="text-2xl font-extrabold">Commercial</h5>
                         <p class="text-[16px] text-gray-500 font-semibold">Innovative commercial designs that elevate brand identity and functionality.</p>
                         <div></div>
@@ -374,13 +374,77 @@
                       </svg></h1>
                       </div>
                     </div>
-                    <div class="rounded-xl border-2 shadow-xl p-8">
+                    <div class="rounded-xl border-2 shadow-xl p-8 w-[360px] lg:w-full order-first">
+                      <img class="w-screen" src="./assets/img5.png" alt="">
+                    </div>
+                  </div>
+                  <div class="grid grid-cols-1 lg:grid-cols-4">
+                    <div class="rounded-xl border-2 shadow-xl p-8 w-[360px] lg:w-full">
                       <img class="w-screen" src="./assets/img5.png" alt="">
                     </div>
                   </div>
                 </div>
             </div>
          </section>
+         <!-- rainterio news section -->
+          <section class="bg-base-200 pb-8 lg:pb-8 hidden"></section>
+          <!-- contact section -->
+           <section class="bg-[url('/assets/bg.jpg')] bg-cover border-4 border-white pb-14">
+            <div class="container mx-auto">
+              <div class="flex justify-center items-center mt-8 lg:mt-14">
+                <h1 class="btn bg-[#ABEF5F33] rounded-3xl font-extrabold mx-5 mb-5"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+                Let’s Connect</h1>
+            </div>
+            <div class="text-center space-y-5">
+              <h1 class="text-2xl lg:text-5xl font-extrabold">Let’s Discuss Next Project</h1>
+              <p class="text-[16px] font-semibold text-gray-600 w-3/4 lg:w-3/6 mx-auto pb-8">Explore your next project with us! We offer tailored solutions, innovative designs, and a dedicated team to bring your vision to life. Let's collaborate to achieve outstanding results together.</p>
+            </div>
+            <div class="flex flex-col lg:flex-row justify-center items-center gap-5">
+              <div>
+                <input class="px-5 py-3 w-[360px] lg:w-96 rounded-3xl" type="text" name="" placeholder="First Name" id="">
+              </div>
+              <div>
+                <input class="px-5 py-3 w-[360px] lg:w-96 rounded-3xl" type="text" name="" placeholder="Last Name" id="">
+              </div>
+            </div>
+            <br>
+            <div class="flex flex-col lg:flex-row justify-center items-center gap-5">
+              <div>
+                <input class="px-5 py-3 w-[360px] lg:w-96 rounded-3xl" type="number" name="" placeholder="Phone Number" id="">
+              </div>
+              <div>
+                <input class="px-5 py-3 w-[360px] lg:w-96 rounded-3xl" type="email" name="" placeholder="Email" id="">
+              </div>
+            </div>
+            <br>
+            <div class="flex justify-center items-center">
+              <textarea class="py-3 px-5 w-[360px] lg:w-[785px] rounded-3xl" rows="9" name="" placeholder="Write your message here" id=""></textarea>
+            </div>
+            <div class="flex justify-center items-center my-6">
+              <a
+                class="btn rounded-3xl bg-primary-color text-black font-extrabold text-xl w-[360px] lg:w-[785px] border-none""
+                >Book Consult
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6 rounded-full bg-black text-white font-bold p-1"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+                  />
+                </svg>
+              </a>
+            </div>
+            
+           </section>
+
     </main>
     <footer></footer>
   </body>
